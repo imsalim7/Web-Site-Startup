@@ -1,0 +1,43 @@
+.logo {
+  width: 50px;
+  margin-right: 20px;
+}
+
+a.navbar-brand {
+  padding-right: 25px;
+}
+@media (min-width: 992px) {
+  a.navbar-brand {
+    border-right: 1px solid rgba(128, 128, 128, 0.363);
+  }
+}
+
+a.nav-link,
+.nav-btn {
+  font-size: 17px;
+  
+}
+a.nav-link,
+.nav-btn1 {
+  font-size: 17px;
+  
+  position: relative;
+  left: -10px;
+}
+
+.nav-btn {
+  width: auto;
+  background: #2374ab;
+  border-color: #2374ab;
+}
+
+.nav-cont {
+  margin-inline: auto;
+  max-width: 100rem;
+}
+
+@media (max-width: 992px) {
+  .nav-btn {
+    width: 100%;
+  }
+}
