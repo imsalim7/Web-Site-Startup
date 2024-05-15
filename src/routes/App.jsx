@@ -2,12 +2,13 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "../containers/Layout";
 import Home from "../pages/Home";
 import Services1 from "../pages/Services1";
-import About from "../pages/About";
+
 import NotFound from "../pages/NotFound";
-import Getstarted from "../components/Getstarted";
+import Getstarted from "../pages/Getstarted";
 
 import Register from "../components/Register";
 import Login from "../components/Login";
+import Contact from "../pages/Contact";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <Route path="getstarted" element={<Getstarted />} />
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
-          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
