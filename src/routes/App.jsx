@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes,  Route } from "react-router-dom";
 import Layout from "../containers/Layout";
 import Home from "../pages/Home";
 import Services1 from "../pages/Services1";
@@ -9,7 +9,7 @@ import Getstarted from "../pages/Getstarted";
 import Register from "../components/Register";
 import Login from "../components/Login";
 import Contact from "../pages/Contact";
-
+import Dropdown from"../pages/Dropdown";
 function App() {
   return (
     <HashRouter>
@@ -22,6 +22,7 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="dropdown" element={<Dropdown />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>

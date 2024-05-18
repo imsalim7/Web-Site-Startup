@@ -11,12 +11,12 @@ function Getstarted() {
 <img src={real} alt="" width="272px" height="92px" class="logo"/>
         <form action="">
             <div class="search-panel">
-                <div><img src={search} alt="magnifier image" srcset=""/></div>
-                <input type="search" name="" id="" placeholder="Search Google or type a URL"/>
-                <div><img src={mic} alt="microphone image" srcset=""/></div>
+                <div><img src={search} alt="magnifier" srcset=""/></div>
+                <input type="search" name="" id="" placeholder="Search  or type a URL"/>
+                <div><img src={mic} alt="microphone" srcset=""/></div>
             </div>
             <div class="search-buttons">
-                <input type="button" value="Google Search"/>
+                <input type="button" value="Search"/>
                 
             </div>
            
