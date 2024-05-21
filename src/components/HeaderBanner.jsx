@@ -20,7 +20,7 @@ const HeaderBanner = () => {
           <br />
           Reality <b>Check</b>
         </p>
-        <Link to="register" className="nav-link">
+        <Link to="login" className="nav-link">
         <button
           className="btn btn-light"
           onClick={scrollToContent}

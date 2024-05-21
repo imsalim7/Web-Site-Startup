@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import "../styles/dropdown.css";
 import real from "../assets/realitylogo.png"
-
+import { Link } from "react-router-dom";
 import profil from"../assets/profile.png";
-import stg from "../assets/setting.png"
-import hlp from"../assets/help.png"
+
 import lgp from"../assets/logout.png"
 const Dropdown = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -29,22 +28,13 @@ const Dropdown = () => {
               <h3>Belkhiri Salim</h3>
             </div>
             <hr />
-            <a href="#" className="sub-menu-link1">
+            <Link to="editpro" className="sub-menu-link1">
               <img src={profil} alt="Profile" />
               <p>Edit Profile</p>
               <span></span>
-            </a>
-            <a href="#" className="sub-menu-link1">
-              <img src={stg} alt="Settings" />
-              <p>Settings & Privacy</p>
-              <span></span>
-            </a>
-            <a href="#" className="sub-menu-link1">
-              <img src={hlp} alt="Help" />
-              <p>Help & Support</p>
-              <span></span>
-            </a>
-            <a href="#" className="sub-menu-link1">
+              </Link>
+            
+            <a href="/" className="sub-menu-link1">
               <img src={lgp} alt="Logout" />
               <p>Logout</p>
               <span></span>

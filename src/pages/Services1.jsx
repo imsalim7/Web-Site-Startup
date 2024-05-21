@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderBanner from "../components/HeaderBanner";
+
 
 import agileTeams from "../assets/realitylogo.png";
 import "../styles/Home.css";
