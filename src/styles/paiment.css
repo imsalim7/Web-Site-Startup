@@ -1,5 +1,5 @@
 .sdsd{
-	background-color: #4cb3f8; ;
+	background-color: #ffffff; ;
 }
 
 .pricing {
@@ -38,6 +38,7 @@
 
 .pricing__action:focus {
 	outline: none;
+	
 }
 
 
@@ -45,7 +46,7 @@
 /* norbu */
 .pricing--norbu .pricing__item {
 	margin: 1em;
-	color: #fff;
+	color: #000000;
 	cursor: default;
 	font-family: 'Myriad Pro', Arial, sans-serif;
 	border: 1px solid rgba(255,255,255,0.4);
@@ -56,7 +57,7 @@
 }
 
 .pricing--norbu .pricing__item:hover {
-	border: 1px solid rgba(255,255,255,1);
+	border: 1px solid rgb(0, 0, 0);
 	background: rgba(255,255,255,0.18);
 }
 
@@ -73,7 +74,7 @@
 	position: absolute;
 	width: 20%;
 	height: 1px;
-	background: #fff;
+	background: #000000;
 	left: 40%;
 	bottom: 0;
 }
@@ -133,15 +134,16 @@
 	flex: none;
 	margin: auto 1em 1em;
 	padding: 1.25em 2em;
-	color: #040d12;
+	color: #000000;
 	background: rgba(255,255,255,0.7);
 	border-radius: 5px;
 	-webkit-transition: background 0.3s;
 	transition: background 0.3s;
 }
 
-.pricing--norbu .pricing__action:hover,
-.pricing--norbu .pricing__action:focus {
-	background: #fff;
+.pricing--norbu .pricing__action:hover{
+	color: #ffffff;
+	background: #000000;
 }
+
 
