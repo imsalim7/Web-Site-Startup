@@ -9,6 +9,7 @@ import Login from "../components/Login";
 import Contact from "../pages/Contact";
 import Dropdown from "../pages/Dropdown";
 import Editpro from "../pages/Editpro";
+import Paiment from "../pages/Paiment"
 function App() {
   return (
     <HashRouter>
@@ -22,6 +23,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="dropdown" element={<Dropdown />} />
           <Route path="editpro" element={<Editpro />} />
+          <Route path="paiment" element={<Paiment />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>

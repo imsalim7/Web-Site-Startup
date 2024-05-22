@@ -1,4 +1,5 @@
 import HeaderBanner from "../components/HeaderBanner";
+import Paiment from "../pages/Paiment";
 
 import agileTeams from "../assets/realitylogo.png";
 import "../styles/Home.css";
@@ -49,6 +50,8 @@ const Home = () => {
                 
             </div>
         </div>
+        
+        <Paiment />
     </div>
   );
 };
