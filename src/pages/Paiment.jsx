@@ -7,7 +7,7 @@ function paiment() {
             
             <div class="pricing pricing--norbu">
                 <div class="pricing__item">
-                    <h3 class="pricing__title">Beginner Savers</h3>
+                    <h3 class="pricing__title">Basic</h3>
                     <p class="pricing__sentence">For people who are starting out in the water saving business</p>
                     <div class="pricing__price"><span class="pricing__currency">$</span>19<span class="pricing__period">/ month</span></div>
                     <ul class="pricing__feature-list">
@@ -18,7 +18,7 @@ function paiment() {
                     <button class="pricing__action">Choose plan</button>
                 </div>
                 <div class="pricing__item pricing__item--featured">
-                    <h3 class="pricing__title">Advanced Savers</h3>
+                    <h3 class="pricing__title">Standard</h3>
                     <p class="pricing__sentence">For experienced water savers who'd like to push their limits</p>
                     <div class="pricing__price"><span class="pricing__currency">$</span>29<span class="pricing__period">/ month</span></div>
                     <ul class="pricing__feature-list">
@@ -29,7 +29,7 @@ function paiment() {
                     <button class="pricing__action">Choose plan</button>
                 </div>
                 <div class="pricing__item">
-                    <h3 class="pricing__title">Pro Savers</h3>
+                    <h3 class="pricing__title">Premium</h3>
                     <p class="pricing__sentence">For all the professionals who'd like to educate others, too</p>
                     <div class="pricing__price"><span class="pricing__currency">$</span>79<span class="pricing__period">/ month</span></div>
                     <ul class="pricing__feature-list">
